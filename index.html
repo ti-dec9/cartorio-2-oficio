@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cartório 2 Ofício</title>
+  </head>
+  <body x-data="{closeModal: true}">
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    <input type="checkbox" id="my-modal-7" class="modal-toggle" />
+    <div class="modal" :class="!closeModal ? '' : 'modal-open'">
+      <div class="relative w-full max-w-3xl modal-box">
+        <label for="my-modal-7" class="absolute bg-primary btn btn-sm btn-circle right-2 top-2"><button x-on:click="closeModal = ! closeModal" @click.outside="closeModal = false">X</button></label>
+        <h3 class="py-4 text-lg font-bold text-primary">Avisos</h3>
+        <div class="flex justify-center p-4 border-2 border-primary">
+         <img class="w-full  md:w-7/12" src="https://cdn.discordapp.com/attachments/663603698903154701/1044308343126249582/WhatsApp_Image_2022-11-21_at_14.01.21.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+    <!--Transparência Modal Box-->
+    <input type="checkbox" id="my-modal-1" class="modal-toggle" />
+    <label for="my-modal-1" class="cursor-pointer modal">
+    <label class="relative modal-box" for="">
+    <h3 class="text-lg font-bold">Transparência</h3>
+    <div class="flex flex-col gap-2 py-6">
+      <a class="link link-hover" href="https://www.cnj.jus.br/corregedoria/justica_aberta/?">CNJ</a>
+      <a class="link link-hover" href="https://www.tjrj.jus.br/web/guest/transparencia/relatorio-de-receita-cartoraria-extrajudicial">TJ-RJ</a>
+    </div>
+  </label>
+</label>
+<!--Serviços TJ-RJ Modal Box-->
+<input type="checkbox" id="my-modal-2" class="modal-toggle" />
+<label for="my-modal-2" class="cursor-pointer modal">
+<label class="relative modal-box" for="">
+<h3 class="text-lg font-bold">Serviços TJ-RJ</h3>
+<div class="flex flex-col gap-2 py-6">
+  <a class="link link-hover" href="https://www3.tjrj.jus.br/sitepublico/default.aspx">Consulta de Selos</a>
+  <a class="link link-hover" href="https://www3.tjrj.jus.br/consultadje/">Diário Oficial Eletrônico</a>
+  <a class="link link-hover" href="http://www.tjrj.jus.br/web/guest/servicos/grerj-eletronica1">GRERJ Eletrônica</a>
+</div>
+</label>
+</label>
+<!--Tabela de Emolumentos Modal Box-->
+<input type="checkbox" id="my-modal-3" class="modal-toggle" />
+<label for="my-modal-3" class="cursor-pointer modal">
+<label class="relative modal-box" for="">
+<h3 class="text-lg font-bold">Tabela de Emolumentos:</h3>
+<div class="flex flex-col gap-2 py-6">
+  <a class="link link-hover" href="http://www4.tjrj.jus.br/Portal-Extrajudicial/emolumentos.aspx">Tabela de Emolumentos</a>
+</div>
+</label>
+</label>
+<!--E-Cartório Modal Box-->
+<input type="checkbox" id="my-modal-4" class="modal-toggle" />
+<label for="my-modal-4" class="cursor-pointer modal">
+<label class="relative modal-box" for="">
+<h3 class="text-lg font-bold">E-Cartório:</h3>
+<div class="flex flex-col gap-2 py-6">
+  <a class="link link-hover" href="https://e-cartoriodobrasil.com/">E-Cartório</a>
+</div>
+</label>
+</label>
+<!--Prefeitura VR Modal Box-->
+<input type="checkbox" id="my-modal-5" class="modal-toggle" />
+<label for="my-modal-5" class="cursor-pointer modal">
+<label class="relative modal-box" for="">
+<h3 class="text-lg font-bold">Prefeitura Municipal de Volta Redonda:</h3>
+<div class="flex flex-col gap-2 py-6">
+  <a class="link link-hover" href="https://www.voltaredonda.rj.gov.br">Prefeitura VR</a>
+</div>
+</label>
+</label>
+<!--Mapa Cart[orio] Modal Box-->
+<input type="checkbox" id="my-modal-6" class="modal-toggle" />
+<label for="my-modal-6" class="cursor-pointer modal">
+<label class="relative modal-box" for="">
+<h3 class="text-lg font-bold">Mapa</h3>
+<div class="flex flex-col gap-2 py-2">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.8415059763524!2d-44.093025000000004!3d-22.510129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9ea2a627dccf95%3A0xca370db76452b7b9!2sR.%20Primeiro%20de%20Maio%2C%2095%20-%20Aterrado%2C%20Volta%20Redonda%20-%20RJ%2C%2027213-290!5e0!3m2!1spt-BR!2sbr!4v1660312344285!5m2!1spt-BR!2sbr" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</label>
+</label>
+  </body>
+</html>
