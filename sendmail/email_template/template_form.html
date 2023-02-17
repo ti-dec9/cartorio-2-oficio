@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Template Email</title>
+
+    <style>
+
+        body{
+
+            Margin: 0;
+
+            padding: 0;
+
+            background-color: white;
+            
+
+        }
+
+        table{
+
+            border-spacing: 0;
+
+        }
+
+        td{
+
+            padding: 0;
+
+        }
+
+        img{
+
+            border: 0;
+
+        }
+
+        .wrapper{
+
+            width: 100%;
+
+            table-layout: fixed;
+
+            background-color: white;
+
+            padding-bottom: 40px;
+
+        }
+
+        .webkit{
+
+            max-width: 600px;
+
+            background-color: white;
+
+        }
+
+        .outer{
+
+            Margin: 0 auto;
+
+            width: 100%;
+
+            max-width: 600px;
+
+            border-spacing: 0;
+
+            font-family: sans-serif;
+
+            color: black;
+
+        }
+
+        p{
+
+            color:#4a4a4a;
+
+        }
+
+        .grow {
+
+             transition: all .2s ease-in-out; 
+
+        }
+
+        .grow:hover { 
+
+            transform: scale(1.1); 
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <center class="wrapper">
+
+        <div class="webkit">
+            <table align="center" class="outer">
+                <tr>
+                    <td>
+                        <table width="100%" style="border-spacing: 0;">
+                            <tr>
+                                <td style="text-align: center; background-color: white;padding:10px;">
+                                    <a href=""><img src="https://ik.imagekit.io/8z4sc6x4w/Cartorio_2_Oficio/logo.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676642693986" width="160px" alt="Logo" title="Logo"></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center; padding: 18px;">
+                        <h2>Contato Site</h2>
+                        <h3> <p><i>%hoje%</i></p></h3>
+                        <h4> <big>Segue os dados de contato:</big></h4>
+                        <h3><big>Nome:</big> %nome%</h3>
+                        <h3><big>Setor:</big> %setores%</h3>
+                        <h3><big>Email:</big> %email%</h3>
+                        <h3><big>Mensagem:</big></h4>
+                        <p> %mensagem%</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="20" style="background-color: #3A4191 ;"></td>
+                </tr>
+            </table>
+        </div>
+    </center>
+</body>
+
+</html>
