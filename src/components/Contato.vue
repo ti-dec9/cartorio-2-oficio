@@ -23,7 +23,7 @@
             <label class="label">
                 <span class="text-lg label-text text-primary">Mensagem: *</span>
             </label>
-            <textarea class="textarea" required placeholder="Mensagem"></textarea>
+            <textarea class="textarea" name="message" required placeholder="Mensagem"></textarea>
             <div class="flex justify-center">
                 <button type="submit" id="lead_submit" class="w-full text-white transition duration-500 border-0 hover:bg-primary btn bg-primary hover:scale-105 ">Enviar</button>
             </div>

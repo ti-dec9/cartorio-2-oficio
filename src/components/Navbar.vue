@@ -1,7 +1,7 @@
 <template>
 <div class="fixed top-0 z-50 px-8 shadow-md bg-base-100 text-neutral lg:px-20 navbar max-h-24">
   <div class="flex-1 px-2 lg:flex-none">
-    <img class="max-w-[150px]" src="https://dec9.com.br/homologacao/Cartorio2/assets/logo.png" alt="">
+    <img class="max-w-[150px]" src="../assets/logo.jpg" alt="Logo cartorio 2 oficio">
   </div> 
   <div class="flex justify-end flex-1 px-2 font-medium">
     <div class="flex items-stretch">
@@ -27,7 +27,7 @@
     leave-to-class="transform -translate-x-64">
             <ul v-show="mobileNav" class="fixed z-20 text-neutral flex flex-col w-full max-w-[250px] h-screen p-8 gap-2 bg-white shadow top-0 left-0">
             <div class="">
-               <img class="max-w-[150px]" src="https://dec9.com.br/homologacao/Cartorio3/assets/logo.png" alt="">
+               <img class="max-w-[150px]" src="../assets/logo.jpg" alt="Logo cartorio 2 oficio">
             </div> 
                  <li><a @click="scroll('ri')" class="font-medium normal-case btn btn-ghost rounded-btn">Registro de Imóveis</a></li>
                   <li><a @click="scroll('services')" class="font-medium normal-case btn btn-ghost rounded-btn">Serviços</a></li>
