@@ -52,7 +52,7 @@
   </div>
   <div class="max-w-[250px]">
     <span class="opacity-80 footer-title text-primary">Horário de Funcionamento</span> 
-    <label for="my-modal-6" class="link link-hover"><i class="pr-2 text-xl text-primary fa-solid fa-clock"></i>Seg a Sex, 08:30–17:30
+    <label for="my-modal-6" class="link link-hover"><i class="pr-2 text-xl text-primary fa-solid fa-clock"></i>Seg a Sex, 09h as 17h
 </label>
   </div>
 </footer> 
